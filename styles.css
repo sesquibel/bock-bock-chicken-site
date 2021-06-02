@@ -1,0 +1,194 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 10%;
+	background-color: #fff;
+	font-family: 'Zilla Slab';
+	font-size: 22px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Fira Sans Extra Condensed' 
+}
+
+header {
+	height: 75px;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	background-color: #fa1e0e;
+	position: fixed;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	font-weight: 700;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #fff;
+}
+
+.logo img {
+	padding: 15px;
+	width: 70px;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+nav li {
+	list-style: none;
+	padding: 0 25px;
+}
+
+nav li a {
+	text-decoration: none;	
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.hero {
+	background-image: url("/assets/canva-sliced-fried-chicken.jpg");
+	max-width: 100%;
+	height: 900px;
+	display: flex;
+	align-items: flex-start;
+}
+
+.hero-banner {
+	width: 40%;
+	margin-top: 150px;
+	padding: 30px;
+	background-color: #fff;
+	color: #fa1e0e;
+	font-size: 2.5rem;
+	border-radius: 0 3px 3px 0;
+}
+
+.hero-banner a {
+	color: #fa1e0e;
+	font-size: 1rem;
+	text-decoration: none;
+}
+
+.hero-banner a:hover {
+	color:#faaaaa;
+}
+
+.hero-banner a i {
+	vertical-align: middle;
+}
+
+.menu, .team {
+	width: 100%;
+	padding: 30px;
+	border: 1px solid black;
+}
+
+.menu-items {
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu-item-card {
+	width: 400px;
+}
+
+.menu-item-chicken-plate, .menu-item-sandwich, .menu-item-chicken-wood {
+	max-width: 100%;
+	height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+} 
+
+.menu-item-sandwich {
+	background-image: url("assets/canva-fried-chicken-sandwich.jpg");
+}
+
+.menu-item-chicken-plate {
+	background-image: url("assets/canva-fried-chicken-on-white-ceramic-plate.jpg");
+}
+
+.menu-item-chicken-wood {
+	background-image: url("assets/canva-fried-chicken-on-brown-wooden-tray.jpg");
+}
+
+.team-members {
+	display: flex;
+	justify-content: space-around;
+}
+
+.team-card {
+	width: 400px;
+}
+
+.team-ceo, .team-chef, .team-catering-manager {
+	max-width: 100%;
+	height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+} 
+
+.team-ceo {
+	background-image: url("assets/manager-img.jpg");
+}
+
+.team-chef {
+	background-image: url("assets/chef-img.jpg");
+}
+
+.team-catering-manager {
+	background-image: url("assets/catering-manager.jpg");
+}
+
+footer {
+	width: 100%;
+	background-color: #fa1e0e;
+	color: white;
+}
+
+footer h4 {
+	margin-top: -1rem;
+}
+
+.contact {
+	display: flex;
+}
+
+.social-media i {
+	padding: 0 5px;
+}
+
+.social-media a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.contact-info, .locations {
+	width: 50%;
+	padding: 30px;
+	padding-top: 70px;
+}
+
+.locations {
+	border-left: 1px solid #fff;
+}
+
+.location-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.attribute {
+	font-size: 1rem;
+}
